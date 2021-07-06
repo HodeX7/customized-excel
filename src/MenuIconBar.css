@@ -1,0 +1,30 @@
+.menu__iconbar{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 237, 237);
+  }
+  .menu-icon{
+    padding: 0rem 0.7rem;
+    display: flex;
+    align-items: center;
+    min-height: 2rem;
+  }
+  .menu-icon:hover{
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  .font__family__selector{
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  .selector option{
+    font-size: 18px;
+  }
+  .font__size__selector{
+    height: 30px;
+    width: 45px;
+    font-size: 18px;
+  }

@@ -1,0 +1,24 @@
+.menubar{
+    height: 5vh;
+    display: flex;
+    background-color: #107c41;
+    color: white;
+  }
+  .item{
+    padding: 0rem 1rem;
+    display:  flex;
+    align-items: center;
+  }
+  .selected{
+    background-color: white;
+    color: #107c41;
+  }
+  .item:hover{
+    cursor: pointer;
+    background-color: #06582b;
+  }
+  .selected:hover{
+    cursor: default;
+    background-color: white;
+    color: #107c41;
+  }
